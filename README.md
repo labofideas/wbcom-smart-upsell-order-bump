@@ -10,6 +10,14 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Performance-first WooCommerce upsell plugin.
 
+## Documentation
+
+- [Installation Guide](docs/INSTALLATION.md)
+- [User Guide](docs/USER-GUIDE.md)
+- [Developer Guide](docs/DEVELOPER.md)
+- [FAQ](docs/FAQ.md)
+- [Changelog](docs/CHANGELOG.md)
+
 ## Upgraded architecture
 
 - Offer CRUD now uses custom table: `{$wpdb->prefix}wbcom_suo_offers`
