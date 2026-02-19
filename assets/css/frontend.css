@@ -1,0 +1,153 @@
+.wbcom-suo-offer,
+.wbcom-suo-cart-bump,
+.wbcom-suo-upsell-offer {
+  border: 1px solid #dadde1;
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.wbcom-suo-choice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wbcom-suo-display-inline .wbcom-suo-checkout-card {
+  display: grid;
+  grid-template-columns: minmax(84px, 112px) 1fr;
+  gap: 12px;
+}
+
+.wbcom-suo-display-inline .wbcom-suo-choice,
+.wbcom-suo-display-inline .wbcom-suo-price,
+.wbcom-suo-display-inline .wbcom-suo-countdown,
+.wbcom-suo-display-inline .wbcom-suo-coupon,
+.wbcom-suo-display-inline .wbcom-suo-bundle,
+.wbcom-suo-display-inline .wbcom-suo-dismiss {
+  grid-column: 1 / -1;
+}
+
+.wbcom-suo-display-grid .wbcom-suo-checkout-card {
+  display: grid;
+  grid-template-columns: minmax(96px, 140px) 1fr;
+  gap: 12px;
+}
+
+.wbcom-suo-display-grid .wbcom-suo-choice,
+.wbcom-suo-display-grid .wbcom-suo-price,
+.wbcom-suo-display-grid .wbcom-suo-countdown,
+.wbcom-suo-display-grid .wbcom-suo-coupon,
+.wbcom-suo-display-grid .wbcom-suo-bundle,
+.wbcom-suo-display-grid .wbcom-suo-dismiss {
+  grid-column: 1 / -1;
+}
+
+.wbcom-suo-template-highlight {
+  border-color: #2271b1;
+  background: #f0f6fc;
+}
+
+.wbcom-suo-template-banner {
+  border-color: #1d2327;
+  background: #f6f7f7;
+}
+
+.wbcom-suo-price {
+  font-weight: 700;
+}
+
+.wbcom-suo-product-image-wrap {
+  margin: 8px 0;
+}
+
+.wbcom-suo-product-image {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.wbcom-suo-upsell-offer .button {
+  margin-right: 12px;
+}
+
+.wbcom-suo-bundle {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+.wbcom-suo-bundle ul {
+  margin: 6px 0 0 18px;
+}
+
+.wbcom-suo-coupon {
+  font-weight: 600;
+  color: #1d2327;
+}
+
+.wbcom-suo-countdown {
+  font-weight: 600;
+  color: #b32d2e;
+}
+
+.wbcom-suo-dismiss,
+.wbcom-suo-popup-close {
+  background: transparent;
+  border: 0;
+  color: #646970;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+.wbcom-suo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.wbcom-suo-cart-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.wbcom-suo-popup-card {
+  max-width: 520px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.wbcom-suo-exit-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.wbcom-suo-exit-card {
+  max-width: 560px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+@media (max-width: 782px) {
+  .wbcom-suo-display-inline .wbcom-suo-checkout-card,
+  .wbcom-suo-display-grid .wbcom-suo-checkout-card {
+    grid-template-columns: 1fr;
+  }
+}

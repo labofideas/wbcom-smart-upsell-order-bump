@@ -1,0 +1,48 @@
+.wbcom-suo-admin .wbcom-suo-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.wbcom-suo-admin .wbcom-suo-card {
+  border: 1px solid #dcdcde;
+  background: #fff;
+  padding: 14px;
+  border-radius: 6px;
+}
+
+.wbcom-suo-admin .wbcom-suo-card strong {
+  display: block;
+  color: #50575e;
+  margin-bottom: 8px;
+}
+
+.wbcom-suo-admin .wbcom-suo-card span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.wbcom-suo-form p label {
+  margin-right: 12px;
+}
+
+.wbcom-suo-analytics-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: end;
+  margin: 12px 0 16px;
+}
+
+.wbcom-suo-template-preview-wrap {
+  margin: 14px 0 18px;
+}
+
+#wbcom-suo-template-preview {
+  max-width: 520px;
+  border: 1px solid #dcdcde;
+  border-radius: 6px;
+  padding: 14px;
+  background: #fff;
+}
